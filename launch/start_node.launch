@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="beginner_tutorials" type="rec_node.py" name="speech_recognition_node" output="screen" />
+
+  <node pkg="beginner_tutorials" type="center.py" name="center_gui_node" output="screen" />
+
+  <node pkg="beginner_tutorials" type="arduino_connect.py" name="arduino_hardware_node" output="screen" respawn="true" />
+
+</launch>
