@@ -11,6 +11,6 @@ catkin_package()
 catkin_install_python(PROGRAMS
   scripts/rec_node.py
   scripts/center.py
-  # (เดี๋ยวเราจะมาเพิ่ม arduino_connect.py ทีหลัง)
+  scripts/arduino_connect.py  # <<< เพิ่มบรรทัดนี้
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
